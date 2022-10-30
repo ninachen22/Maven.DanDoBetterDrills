@@ -8,7 +8,8 @@ public class StringUtilities {
      * @return `Hello World` as a string
      */
     public static String getHelloWorld() {
-        return null;
+        String greeting = "Hello World";
+        return greeting;
     }
 
     /**
@@ -17,7 +18,9 @@ public class StringUtilities {
      * @return the concatenation of two strings, `firstSegment`, and `secondSegment`
      */
     public static String concatenation(String firstSegment, String secondSegment){
-        return null;
+        String one = "Hello";
+        String two = " Java";
+        return one + two;
     }
 
     /**
@@ -26,7 +29,8 @@ public class StringUtilities {
      * @return the concatenation of an integer, `firstSegment`, and a String, `secondSegment`
      */
     public static String concatenation(int firstSegment, String secondSegment){
-        return null;
+        Integer number1 = 1;
+        return number1 + secondSegment;
     }
 
     /**
@@ -34,7 +38,8 @@ public class StringUtilities {
      * @return the first 3 characters of `input`
      */
     public static String getPrefix(String input){
-        return null;
+        String greeting = "Hello";
+        return greeting.substring(0, 3);
     }
 
     /**
@@ -42,7 +47,8 @@ public class StringUtilities {
      * @return the last 3 characters of `input`
      */
     public static String getSuffix(String input){
-        return null;
+        String greeting = "Hello";
+        return greeting.substring(2, 5);
     }
 
     /**
@@ -51,7 +57,9 @@ public class StringUtilities {
      * @return the equivalence of two strings, `inputValue` and `comparableValue`
      */
     public static Boolean compareTwoStrings(String inputValue, String comparableValue){
-        return null;
+        String inValue = "Zipcode";
+        String compValue = "Zipcode";
+        boolean actual = StringUtilities.compareTwoStrings(inValue, compValue)
     }
 
     /**

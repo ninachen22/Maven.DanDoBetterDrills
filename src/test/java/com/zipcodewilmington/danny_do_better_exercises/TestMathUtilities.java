@@ -21,4 +21,5 @@ import static org.junit.Assert.*;
         TestMultiplication.class
 })
 public class TestMathUtilities {
+
 }
